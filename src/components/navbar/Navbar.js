@@ -76,102 +76,100 @@ function Navbar() {
 
 
 
-                
+
 
 
             </div>
 
             <div className="dropdown">
-                    <button className="dropbtn">Dispositivos
-                        <i className="fa fa-down"></i>
-                    </button>
-                    <div className="dropdown-list consoles">
-                        <div className="row">
-                            <div className="column">
-                                <div className="listbox">
-                                    <p>Consoles</p>
-                                    <a href="#"> Xbox Consoles</a>
-                                    <a href="#">Xbox Series X</a>
-                                    <a href="#"> Xbox Series S</a>
-                                    <a href="#"> Compre todos os consoles
-                                    </a>
-                                    <a href="#"> Onde comprar
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="column">
-                                <div className="listbox">
-                                    <p>Acessórios</p>
-                                    <a href="#"> Compre todos os acessórios</a>
-                                    <a href="#">Controles</a>
-                                    <a href="#"> Fones de ouvido</a>
-                                    <a href="#"> Discos rígidos e armazenamento
-                                    </a>
-
-                                </div>
+                <button className="dropbtn">Dispositivos
+                    <i className="fa fa-down"></i>
+                </button>
+                <div className="dropdown-list consoles">
+                    <div className="row">
+                        <div className="column">
+                            <div className="listbox">
+                                <p>Consoles</p>
+                                <a href="#"> Xbox Consoles</a>
+                                <a href="#">Xbox Series X</a>
+                                <a href="#"> Xbox Series S</a>
+                                <a href="#"> Compre todos os consoles
+                                </a>
+                                <a href="#"> Onde comprar
+                                </a>
                             </div>
                         </div>
+                        <div className="column">
+                            <div className="listbox">
+                                <p>Acessórios</p>
+                                <a href="#"> Compre todos os acessórios</a>
+                                <a href="#">Controles</a>
+                                <a href="#"> Fones de ouvido</a>
+                                <a href="#"> Discos rígidos e armazenamento
+                                </a>
 
-
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
+            </div>
             <a href="#play">Jogar</a>
 
             <div className="dropdown">
-                    <button className="dropbtn">Comunidade
-                        <i className="fa fa-down"></i>
-                    </button>
-                    <div className="dropdown-list consoles">
-                        <div className="row">
-                            <div className="column">
-                                <div className="listbox">
-                                    <p>Consoles</p>
-                                    <a href="#"> Xbox Consoles</a>
-                                    <a href="#">Xbox Series X</a>
-                                    <a href="#"> Xbox Series S</a>
-                                    <a href="#"> Compre todos os consoles
-                                    </a>
-                                    <a href="#"> Onde comprar
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="column">
-                                <div className="listbox">
-                                    <p>Acessórios</p>
-                                    <a href="#"> Compre todos os acessórios</a>
-                                    <a href="#">Controles</a>
-                                    <a href="#"> Fones de ouvido</a>
-                                    <a href="#"> Discos rígidos e armazenamento
-                                    </a>
-
-                                </div>
+                <button className="dropbtn">Comunidade
+                    <i className="fa fa-down"></i>
+                </button>
+                <div className="dropdown-list consoles">
+                    <div className="row">
+                        <div className="column">
+                            <div className="listbox">
+                                <p>Consoles</p>
+                                <a href="#"> Xbox Consoles</a>
+                                <a href="#">Xbox Series X</a>
+                                <a href="#"> Xbox Series S</a>
+                                <a href="#"> Compre todos os consoles
+                                </a>
+                                <a href="#"> Onde comprar
+                                </a>
                             </div>
                         </div>
+                        <div className="column">
+                            <div className="listbox">
+                                <p>Acessórios</p>
+                                <a href="#"> Compre todos os acessórios</a>
+                                <a href="#">Controles</a>
+                                <a href="#"> Fones de ouvido</a>
+                                <a href="#"> Discos rígidos e armazenamento
+                                </a>
 
-
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
+            </div>
             <a href="#about">About</a>
 
             <div className="dropdown">
-                    <button className="dropbtn">Mais
-                        <i className="fa fa-down"></i>
-                    </button>
-                    <div className="dropdown-list consoles">
-                        <div className="row">
-                            <div className="column">
-                                <div className="listbox">
-                                    <a href="#"> Suporte</a>
-                                    <a href="#"> Meu Xbox</a>
-                                    <a href="#"> Desenvolvedores</a>
-                                    
-                                </div>
-                            </div>
-                        </div>
+                <button className="dropbtn">Mais
+                    <i className="fa fa-down"></i>
+                </button>
+                <div className="dropdown-list consoles">
+
+                    <div className="listbox">
+                        <a href="#"> Suporte</a>
+                        <a href="#"> Meu Xbox</a>
+                        <a href="#"> Desenvolvedores</a>
 
 
                     </div>
+
+
                 </div>
+            </div>
             <a href="#javascript:void(0);" className="icon" onClick={handleClick}>&#9776;</a>
 
         </div >
