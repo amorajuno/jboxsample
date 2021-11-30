@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.card{
+    /* display: flex;
+    justify-self: baseline;
+    min-height: 15vh !important;
+    min-width: 15% !important;
+    max-width: 20% !important; */
+}
+
+.card img{
+    min-height: 15vh !important;
+    min-width: 15% !important;
+    max-width: 20% !important;
+    margin: 0 auto;
+}

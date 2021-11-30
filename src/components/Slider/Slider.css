@@ -1,0 +1,11 @@
+.slider-container{
+  display: flex;
+  align-self: stretch;
+  width:100vw !important;
+  background-size: contain !important;
+}
+.sliderTitle{
+  z-index:2;
+  position: absolute;
+  align-self: center;
+}
