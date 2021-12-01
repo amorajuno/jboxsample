@@ -1,10 +1,11 @@
 import './games.css'
 import React from 'react'
 import Card from '../../components/Card/card'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-const Games = ({ props }) => {
+const Games = (props) => {
 
     const games = [
         { "id": 1, "name": "Minecraft", "img": "https://store-images.s-microsoft.com/image/apps.17382.13510798887677013.afcc99fc-bdcc-4b9c-8261-4b2cd93b8845.49beb011-7271-4f15-a78b-422c511871e4" },
@@ -15,18 +16,45 @@ const Games = ({ props }) => {
         { "id": 6, "name": "The Medium", "img": "https://store-images.s-microsoft.com/image/apps.2984.13592824581067623.a376e59f-d8cf-40c9-9ef6-c7bd11240ed4.a8a5433b-ca63-40c2-a1b4-d4c071c89d69" }
     ];
 
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 4
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 4
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
+
     return (
 
         <div>
             <h2>Jogos mais vendidos</h2>
             <div className="container">
                 <div className="card">
-                    
-                    <Carousel>
+
+                    <Carousel
+                        responsive={responsive}
+                        infinite={true}
+                        autoPlay={true}
+                        autoPlaySpeed={2000}
+                        customTransition="all .5"
+                        transitionDuration={500}
+                    >
 
                         {games.map((game, index) => (<Card name={game.name} img={game.img} />))}
                     </Carousel>
-                    
+
                 </div>
             </div>
         </div >
