@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar'
 import Slider from './components/Slider/Slider'
-// import Games from './Pages/Games/Games'
+import Games from './Pages/Games/Games'
 import Navlinks from './components/Navlinks/Navlinks'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Slider />
       </header>
       <Navlinks />
-      {/* <Games/> */}
+      <Games/>
 
     </div>
   );
