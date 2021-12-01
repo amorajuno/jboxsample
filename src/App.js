@@ -1,19 +1,19 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar'
 import Slider from './components/Slider/Slider'
-import Games from './Pages/Games/Games'
+// import Games from './Pages/Games/Games'
+import Navlinks from './components/Navlinks/Navlinks'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <header className="App-header">
-        <Slider/>
-        <p>
-          Alou
-        </p>
+        <Slider />
       </header>
-      <Games/>
+      <Navlinks />
+      {/* <Games/> */}
+
     </div>
   );
 }

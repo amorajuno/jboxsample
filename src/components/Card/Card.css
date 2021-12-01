@@ -1,0 +1,14 @@
+.likeBtn img{
+    width:fit-content;
+    max-width: 7vw;
+    max-height: 2vh;
+    display: flex;
+}
+
+.likeBtn{
+    width:fit-content;
+
+    border-color: white;
+    background-color: white;
+
+}

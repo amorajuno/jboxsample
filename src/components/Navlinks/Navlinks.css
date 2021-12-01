@@ -1,0 +1,21 @@
+.icon{
+    width: 56px;
+    height: 99px;
+    margin-bottom: -10px;
+}
+
+.icon p{
+    color: green;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.col{
+    float: left;
+    margin: 0 auto;
+}
